@@ -50,7 +50,7 @@ body{
   outline: none;
   background-color: black;
   color: white;
-  padding: 1rem;
+  padding: 1.3rem;
   position: relative;
   transition: all 0.15s ease-in-out;
 }
