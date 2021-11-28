@@ -20,7 +20,7 @@ body{
 
 .main-image{
   grid-area: image;
-  background-image: url('./images/sharingan.PNG');
+  background-image: url('https://i.pinimg.com/originals/c0/d6/25/c0d625a7ef5bc800380b76186f4f1e06.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;

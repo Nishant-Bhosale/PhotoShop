@@ -67,7 +67,7 @@ const DEFAULT_OPTIONS = [
   {
     name: "Blur",
     property: 'blur',
-    value: 100,
+    value: 0,
     range: {
       min: 0,
       max: 20
