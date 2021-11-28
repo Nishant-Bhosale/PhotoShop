@@ -1,11 +1,17 @@
+import React from 'react';
 import './App.css';
-import Sidebar from './Sidebar';
+import Slider from './Slider';
 
 function App() {
   return (
-    <div className="mainContainer">
-      <div className="main-image"></div>
-      <Sidebar />
+    <div className="container">
+      <div className="main-image">
+        img
+      </div>
+      <div className="sidebar">
+        side
+      </div>
+      <Slider />
     </div>
   );
 }
