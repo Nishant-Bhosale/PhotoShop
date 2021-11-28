@@ -55,6 +55,20 @@ body{
   transition: all 0.15s ease-in-out;
 }
 
+.sidebar-item::after{
+  content: '';
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 0;
+  height: 2px;
+  background-color: white;
+}
+
+sidebar-item:last-child::after{
+  display: none;
+}
+
 .sidebar-item.active{
   background-color:hsl(265, 100%, 70%)
 }

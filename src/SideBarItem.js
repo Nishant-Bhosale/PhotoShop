@@ -1,8 +1,8 @@
 import React from 'react';
 
-const SideBarItem = () => {
+const SideBarItem = ({name, active, handleClick}) => {
    return (
-      <button className="sidebar-item ">Sidebar Item</button>
+      <button className={active ? "sidebar-item active": "sidebar-item"} onClick={handleClick}>{name}</button>
    )
 }
 
